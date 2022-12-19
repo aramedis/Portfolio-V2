@@ -11,6 +11,7 @@ N/A
 ## Usage
 
 Visit the link below to view the framework for my portfolio
+https://aramedis.github.io/Portfolio-V1/
 
 ## Credits
 
