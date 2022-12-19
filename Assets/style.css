@@ -58,11 +58,12 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: stretch;
     row-gap: 10px;
    }
 
 .item{
-    width: 300px;
+
     border: dashed white 2px;
     gap: 10px;
     padding: 0.5rem;
@@ -73,7 +74,7 @@ a {
 }
 
 .item:hover, .item:hover .item_title{
-    box-shadow: inset 0px 0px 8px rgba(232,102,236, 1) , 0 0 15px rgba(232,102,236, 1);
+    box-shadow: inset 0px 0px 8px rgb(91, 10, 232) , 0 0 15px rgb(101, 26, 229);
 }
 .item_title{
     font-family: 'Catamaran', sans-serif;
@@ -87,9 +88,39 @@ a {
     background-color: #dedfe4;
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
-   
-
 }
+
+#project1{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/project1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+#project2{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/project2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+#project3{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/project3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+
 .item p{  
     font-family: 'Catamaran', sans-serif;
     padding-bottom: 0.5rem;
@@ -113,7 +144,7 @@ header p{
     font-size: 0.8rem;
 }
 
-footer{
+.footer{
     text-align: center;
     color: var(--main-font);
     font-size: 2rem;
