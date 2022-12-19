@@ -5,64 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
-    
-    <title>Prework Study Guide</title>
+    <title>Portfolio V1</title>
   </head>
   <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    <header>
+      <nav>
+        <a href="#project1">Project 1</a>
+        <a href="#project2">Project 2</a>
+        <a href="#project3">Project 3</a>
+      </nav>
+      <h1>Portfolio V1</h1>
+
+      <span class="hero" title="city background"></span>
+
+      <h2>Darwin Michell</h2>
+      <p>
+        Certified Technical Project Manager with a wide background in multiple Fortune 500 companies.
+        Versed in multiple roles such as Product Owner, Product Manager and Front-End (Flutter)
+      </p>
     </header>
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
-          <li>The content is contained between an opening tag and a closing tag</li>
-          <li>An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+    <div id="wrapper">
+      <main>
+        <section id="project">
+            <div class="item">
+                <h2 id="project1" class="item_title">Flexbox Row</h2>
+             <p>Use these three properties to create a Flexbox row layout</p>
+            </div>
+            <div class="item">
+                <h2 id="project2" class="item_title">Flexbox Column</h2>
+                <p>Use this to create a Flexbox column layout.</p>
+            </div>
+            <div class="item">
+                <h2 id="project3" class="item_title">CSS Grid Layout</h2>
+                <p>use these three to create a Flexbox row layout</p>
+            </div>
+        </section>
+      </main>
 
-        </ul>
-      </section>
-   
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-          <li>The padding property adds space around the content inside an element.</li>
-          <li>A margin property indicates how much space we want around the <b>outside</b> of an element.</li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">More about the Box Model</a></li>
-        </ul>
-      </section>
-
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>git pull origin main: pull the latest main, important before creating branches or staging/commit</li>
-          <li>git add -A: stage the changes</li>
-          <li>git commit -m "insert notes on changes": commit the changes, -m flag is to associate a message with our commit</li>
-        </ul>
-      </section>
-
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
-          <li>Link .JS to HTML by inserting <pre><code>&lt;script src="./assets/script.js"&gt;&lt;/script&gt</code> between footer and body </li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">javascript basics link</a> </li>
-          <li>console.log(var); can be used to output variables to console for debugging.</li>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>I can code!</p>
-    </footer>
-    <script src="./assets/script.js"></script>
+    </div>
+    <footer>Made with <span>❤️</span> and CSS</footer>
   </body>
 </html>
