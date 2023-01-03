@@ -1,8 +1,9 @@
-# Portfolio V1
+# Portfolio V2
 
 ## Description
 
 This Portfolio is a placeholder nexus for the many projects I will be showcasing
+Portfolio V2 was built using Boostrap 4.3.1
 
 ## Installation
 
