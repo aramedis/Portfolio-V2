@@ -9,51 +9,70 @@
   
     <!-- stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   
   <body>
-    <header>
-      <nav>
-        <a href="#project1">Project 1</a>
-        <a href="#project2">Project 2</a>
-        <a href="#project3">Project 3</a>
+      
+    <!-- NAVBAR -->
+    <header class="container-fluid fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio V2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#project1">Project 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project2">Project 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project3">Project 3</a></li>
+          </ul>
+        </div>
       </nav>
-      <h1>Portfolio V1</h1>
-
-      <span class="hero" title="city background"></span>
-
-      <h2>Darwin Michell</h2>
-      <p>
-        Certified Technical Project Manager with a wide background in multiple Fortune 500 companies.
-        Versed in multiple roles such as Product Owner, Product Manager and Front-End (Flutter)
-      </p>
     </header>
-    <div id="wrapper">
-      <main>
-        <section id="project">
-            <div class="item">
-                <h2  class="item_title">Project 1</h2>
-                <div id="project1"></div>
-             <p>Pollutionstr's mission is using data to provide actionable insights to the market. Pollutionstr's consumer-facing platform enables institutions, consumers and affecting individuals reduce their carbon footprint by pre-ordering meals. "We are disrupting the status quo of how we consume food," said founder and CEO Tomaž Štolfa. "Our end-to-end solution is how we can help companies increase carbon footprint while reducing waste and maximizing profits." In other words, Pollutionstr is a SaaS for environmental sustainability.</p>
-            </div>
-        </section>
-        <section id="project">
-            <div class="item">
-                <h2  class="item_title">Project 2</h2>
-                <div id="project2"></div>
-                <p>Smartpolish's mission is the global most helpful grad student home. Smartpolish.com provides a resource where students (people) from any part of the world can learn how to make a graduate. Smartpolish.com is a social network where the best and brightest students in the world can create and share their best projects. Smartpolish.com is a community for the best of the best. Smartpolish.com is a community for the best of the best, and offers a platform for the best to create and share their best projects.</p>
-            </div>
-            <div class="item">
-                <h2  class="item_title">Project 3</h2>
-                <div id="project3"></div>
-                <p>Commithub's mission is plex and home automation for only Apple models. Commithub does provide some automation features, but in the long term, we plan on developing a broader API suite to encapsulate the app model and its various modules. Commgithub is the new kid on the block, but its approach is very reminiscent of the early days of Agawi. As the company has grown, Commgithub has also been acquired by Digital Garage, the online design and prototyping marketplace. For more information about Commgithub, check out the company at home here.</p>
-            </div>
-        </section>
-      </main>
 
+    <!-- HERO BANNER -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="pb-5 container text-center">
+      </div>
     </div>
+
+    <!--Main Content-->
+
+    <main class="container-fluid"></main>
+
+      <h1>Darwin Michell</h1>
+      <p>
+        Certified Technical Project Manager with a wide background in Fortune 500 companies.
+        Versed in roles such as Product Owner, Product Manager and Front-End (Flutter).
+      </p>
+  
+      <!-- Cards -->
+      <div id="wrapper">
+        <main>
+          <section id="project">
+              <div class="item">
+                  <h2  class="item_title">Project 1</h2>
+                  <div id="project1"></div>
+              <p>Pollutionstr's mission is using data to provide actionable insights to the market. Pollutionstr's consumer-facing platform enables institutions, consumers and affecting individuals reduce their carbon footprint by pre-ordering meals. "We are disrupting the status quo of how we consume food," said founder and CEO Tomaž Štolfa. "Our end-to-end solution is how we can help companies increase carbon footprint while reducing waste and maximizing profits." In other words, Pollutionstr is a SaaS for environmental sustainability.</p>
+              </div>
+          </section>
+          <section id="project">
+              <div class="item">
+                  <h2  class="item_title">Project 2</h2>
+                  <div id="project2"></div>
+                  <p>Smartpolish's mission is the global most helpful grad student home. Smartpolish.com provides a resource where students (people) from any part of the world can learn how to make a graduate. Smartpolish.com is a social network where the best and brightest students in the world can create and share their best projects. Smartpolish.com is a community for the best of the best. Smartpolish.com is a community for the best of the best, and offers a platform for the best to create and share their best projects.</p>
+              </div>
+              <div class="item">
+                  <h2  class="item_title">Project 3</h2>
+                  <div id="project3"></div>
+                  <p>Commithub's mission is plex and home automation for only Apple models. Commithub does provide some automation features, but in the long term, we plan on developing a broader API suite to encapsulate the app model and its various modules. Commgithub is the new kid on the block, but its approach is very reminiscent of the early days of Agawi. As the company has grown, Commgithub has also been acquired by Digital Garage, the online design and prototyping marketplace. For more information about Commgithub, check out the company at home here.</p>
+              </div>
+          </section>
+        </main>
+      </div>
     
     <!-- Footer HTML -->
     <div class="footer">
